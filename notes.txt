@@ -1,0 +1,4 @@
+1/23/23
+    trying to build chess
+
+    atm trying to get the board to load on the screen
