@@ -2,3 +2,21 @@
     trying to build chess
 
     atm trying to get the board to load on the screen
+
+2/4/23
+
+  left off trying to figure out how to not make the game.py draw_pieces function stupid long, think i should use a for loop
+
+  also need to make the pieces larger
+
+2/6/23
+
+  got all the pieces to load, still a bit small but thats okay
+
+  need to focus on how to get the pieces to actually move now
+
+  my idea is to have the board.py have a list of lists representation of the current board and have the display load from that list of lists 
+
+  in order to get the piece that was selected, i need to add a rect attribute to each piece and check for collision i dont think that will take a lot of time
+
+  also need to figure out how to manage turns

@@ -3,6 +3,7 @@ import pygame as p
 
 
 class Board:
+
     def __init__(self, rows, cols):
         self.rows = rows
         self.cols = cols
@@ -19,3 +20,6 @@ class Board:
 
     def update_board(self, rows, cols):
         pass
+
+
+current_board = Board(8, 8)
