@@ -2,6 +2,14 @@ import pygame as p
 import os
 import pieces
 
+WIDTH, HEIGHT = 800, 800
+
+SQ_WIDTH = 95
+
+screen = p.display.set_mode((WIDTH, HEIGHT))
+p.display.set_caption('VALOCHESS')
+p.display.flip()
+
 
 def main():
     running = True
@@ -16,7 +24,7 @@ def main():
 
 
 def draw_board():
-    display.screen.blit(p.image.load(
+    screen.blit(p.image.load(
         os.path.join("chess pngs", 'board.png')), (0, 0))
 
 
@@ -30,11 +38,6 @@ def draw_pieces():
     pieces.f_wp.draw_piece()
     pieces.g_wp.draw_piece()
     pieces.h_wp.draw_piece()
-
-    pieces.a_wr.draw_piece()
-    pieces.a_wr.draw_piece()
-    pieces.a_wr.draw_piece()
-    pieces.a_wr.draw_piece()
 
     # b_wn.draw_piece()
     # c_wb.draw_piece()

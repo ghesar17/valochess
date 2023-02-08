@@ -1,5 +1,5 @@
 import pygame as p
-import game
+import main
 import os
 
 
@@ -71,23 +71,23 @@ class Queen(Piece):
         super().__init__(turn, screen, img, row, col, x, y)
 
 
-a_wp = Pawn(0, game.screen, 'wp.png', 2, 1, 45, 600)
-b_wp = Pawn(0, game.screen, 'wp.png', 2, 2, 140, 600)
-c_wp = Pawn(0, game.screen, 'wp.png', 2, 3, 235, 600)
-d_wp = Pawn(0, game.screen, 'wp.png', 2, 4, 330, 600)
-e_wp = Pawn(0, game.screen, 'wp.png', 2, 5, 425, 600)
-f_wp = Pawn(0, game.screen, 'wp.png', 2, 6, 520, 600)
-g_wp = Pawn(0, game.screen, 'wp.png', 2, 7, 615, 600)
-h_wp = Pawn(0, game.screen, 'wp.png', 2, 8, 710, 600)
+a_wp = Pawn(0, main.screen, 'wp.png', 2, 1, 45, 600)
+b_wp = Pawn(0, main.screen, 'wp.png', 2, 2, 140, 600)
+c_wp = Pawn(0, main.screen, 'wp.png', 2, 3, 235, 600)
+d_wp = Pawn(0, main.screen, 'wp.png', 2, 4, 330, 600)
+e_wp = Pawn(0, main.screen, 'wp.png', 2, 5, 425, 600)
+f_wp = Pawn(0, main.screen, 'wp.png', 2, 6, 520, 600)
+g_wp = Pawn(0, main.screen, 'wp.png', 2, 7, 615, 600)
+h_wp = Pawn(0, main.screen, 'wp.png', 2, 8, 710, 600)
 
-a_wr = Rook(0, game.screen, 'wr.png', 1, 1, 45, 695)
-b_wb = Bishop(0, game.screen, 'wb.png', 1, 2, 140, 695)
-c_wn = Knight(0, game.screen, 'wn.png', 1, 3, 235, 695)
-wq = Queen(0, game.screen, 'wq.png', 1, 4, 330, 695)
-wk = King(0, game.screen, 'wk.png', 1, 5, 425, 695)
-f_wb = Bishop(0, game.screen, 'wb.png', 1, 6, 520, 695)
-g_wn = Knight(0, game.screen, 'wn.png', 2, 7, 615, 695)
-h_wr = Rook(0, game.screen, 'wr.png', 2, 8, 710, 695)
+# a_wr = Rook(0, main.screen, 'wr.png', 1, 1, 45, 695)
+# b_wb = Bishop(0, main.screen, 'wb.png', 1, 2, 140, 695)
+# c_wn = Knight(0, main.screen, 'wn.png', 1, 3, 235, 695)
+# wq = Queen(0, main.screen, 'wq.png', 1, 4, 330, 695)
+# wk = King(0, main.screen, 'wk.png', 1, 5, 425, 695)
+# f_wb = Bishop(0, main.screen, 'wb.png', 1, 6, 520, 695)
+# g_wn = Knight(0, main.screen, 'wn.png', 2, 7, 615, 695)
+# h_wr = Rook(0, main.screen, 'wr.png', 2, 8, 710, 695)
 
 
 # a_bp = Pawn(0, 'bp.png', '7', '1')
