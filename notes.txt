@@ -20,3 +20,11 @@
   in order to get the piece that was selected, i need to add a rect attribute to each piece and check for collision i dont think that will take a lot of time
 
   also need to figure out how to manage turns
+
+2/7/23
+
+  left off trying to figure out how to get the background to load while also being a rect
+
+got a pawn to load with a rect, now going to do for all pieces,
+
+still I need 
